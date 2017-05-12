@@ -54,9 +54,9 @@ TypeA works like this you enter an origin point and bot checks profiles generali
 Next step will be crawling profiles from followers and following.
 
 
-<b>Folder logic</b>
+<b>Folder logic</b><br/>
 Origins -> screen_name(username) ->current_date -> files(generalinfo.txt-followers.txt-following.txt)<br />
-<b>General Info Logic</b>
+<b>General Info Logic</b><br/>
 it gets 11 variables here is the list:<br/>
 <ol>
 <li>ID</li>
