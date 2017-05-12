@@ -32,3 +32,11 @@ TypeB bot does:
 #Follow them 
 
 #Further echantments will be added not decided the algorytm yet posible ai or machine learnign will stick with this becouse of i need to identify eighter person related the topic or not.if person related how is related and what is persons' role on that topic.This will be the hard part i think.
+
+
+
+
+Changelog -
+
+12.05.2017 Istanbul 20.31
+Now i can check the account is protected or not if protected it doesnt even bother itself to check followers list.
