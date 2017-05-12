@@ -58,7 +58,7 @@ Next step will be crawling profiles from followers and following.
 Origins -> screen_name(username) ->current_date -> files(generalinfo.txt-followers.txt-following.txt)<br />
 <b>General Info Logic</b>
 it gets 11 variables here is the list:<br/>
-<ul>
+<ol>
 <li>ID</li>
 <li>screen_name</li>
 <li>protected(is account public or protected)</li>
@@ -70,4 +70,4 @@ it gets 11 variables here is the list:<br/>
 <li>followers_count</li>
 <li>favourites_count</li>
 <li>profile_img_url</li>
-</ul>
+</ol>
