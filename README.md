@@ -34,7 +34,11 @@ TypeB bot does:
 #Further echantments will be added not decided the algorytm yet posible ai or machine learnign will stick with this becouse of i need to identify eighter person related the topic or not.if person related how is related and what is persons' role on that topic.This will be the hard part i think.
 
 
+#update bot count 
 
+I have decided adding two more bot called discoveryA
+discoveryA is the main logic find the relations between people and the topic.
+and pass them to typeB so typeB can follow them and create another list.
 
 Changelog -
 
