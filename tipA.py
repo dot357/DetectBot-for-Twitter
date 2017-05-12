@@ -1,8 +1,7 @@
 import tweepy
 import json
 import re
-import requests              #this library for dealing with 401 protected tweets
-from requests.auth import HTTPBasicAuth			#this library for dealing with 401 protected tweets
+
 
 consumer_key = "40o1vq09rAl5waxx7W23W9MSR"
 consumer_secret = "EoGTClhokJVVDI1N4dNlKSKuJfRckr2mlo2h4cQiAkK6boB2zK"
@@ -11,7 +10,7 @@ access_token_secret = "R2NsvcPMKO2Z5Ht8MpFU2G12QWNVZ18JmVdQwpohschRf"
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
-api = tweepy.API(auth)
+api = tweepy.API(auth,wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
 
 #typeA bot this bot's duty is discover posible threats and put them in text file or db for passing data to typeB bot that is just following and preparing report for individual.
@@ -42,21 +41,24 @@ print(start_account_name + "'s followers are:" )
 
 
 
-response = requests.get('https://twitter.com/' + start_account_name + '/followers')   	#if you get 401 error which means tweets are protected but everytime i did this i get 200 needs to fix.
+#break time 12.05.2017 16.22
+   #todo list : fix tweets protected or not then put datas on text file.after figure out something for discover algh
+   
 
 
-if response.status_code == 401:    
-    print('Users tweets are protected')
-	
-elif response.status_code == 200: 			#if it wont work go back to else			
+
+
+			
+if start_account_detail.protected != True:	    	#FIXED TWEET PROTECT 12.05.2017-20.31||finding protected account is quite tricky tried 3-4 methods nothing worked so i downloaded user data and found Protected = True so i go to that now if account is protected it shows.
 	for followers in start_account_followers:                    
 		print followers.screen_name
+else:
+	print(start_account_name + 'is protected')   
 
+ 
 		
 		
 
-   #break time 12.05.2017 16.22
-   #todo list : fix tweets protected or not then put datas on text file.after figure out something for discover algh
    
    
    
