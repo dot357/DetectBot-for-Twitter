@@ -57,16 +57,17 @@ Next step will be crawling profiles from followers and following.
 <b>Folder logic</b>
 Origins -> screen_name(username) ->current_date -> files(generalinfo.txt-followers.txt-following.txt)<br />
 <b>General Info Logic</b>
-it gets 11 variables here is the list:
-ID<br />
-screen_name<br />
-protected(is account public or protected)<br />
-description<br />
-language(lang)<br />
-time_zone<br />
-statuses_count(how many tweet that person sent)<br />
-friends_count<br />
-followers_count<br />
-favourites_count<br />
-profile_img_url<br />
-
+it gets 11 variables here is the list:<br/>
+<ul>
+<li>ID</li>
+<li>screen_name</li>
+<li>protected(is account public or protected)</li>
+<li>description</li>
+<li>language(lang)</li>
+<li>time_zone</li>
+<li>statuses_count(how many tweet that person sent)</li>
+<li>friends_count</li>
+<li>followers_count</li>
+<li>favourites_count</li>
+<li>profile_img_url</li>
+</ul>
