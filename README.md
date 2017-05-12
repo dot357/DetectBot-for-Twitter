@@ -40,13 +40,13 @@ I have decided adding two more bot called discoveryA
 discoveryA is the main logic find the relations between people and the topic.
 and pass them to typeB so typeB can follow them and create another list.
 
-Changelog - 12.05.2017 Istanbul 20.31
+<strong>Changelog </strong>- <i>12.05.2017 Istanbul 20.31</i>
 
-12.05.2017 Istanbul 20.31
+
 Now i can check the account is protected or not if protected it doesnt even bother itself to check followers list.
 
 
-Changelog -12.05.2017 Istanbul 00.31
+<strong>Changelog </strong>-<i>12.05.2017 Istanbul 00.31</i>
 
 typeA is almost finnished
 
@@ -55,7 +55,7 @@ Next step will be crawling profiles from followers and following.
 
 
 <b>Folder logic</b>
-Origins -> screen_name(username) ->current_date -> files(generalinfo.txt-followers.txt-following.txt)
+Origins -> screen_name(username) ->current_date -> files(generalinfo.txt-followers.txt-following.txt)<br />
 <b>General Info Logic</b>
 it gets 11 variables here is the list:
 ID<br />
@@ -65,8 +65,8 @@ description<br />
 language(lang)<br />
 time_zone<br />
 statuses_count(how many tweet that person sent)<br />
-friends_count
-followers_count
-favourites_count
-profile_img_url
+friends_count<br />
+followers_count<br />
+favourites_count<br />
+profile_img_url<br />
 
