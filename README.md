@@ -77,4 +77,6 @@ it gets 11 variables here is the list:<br/>
 
 Created daily origin list which is under the origins file<br />
 <i>origins->current_date->origins.txt</i><br />
-with this attribute i can track daily origin point so i dont miss anything.Also i can make it automated system becouse of i have the list of person who to look up.
+with this attribute i can track daily origin points so i dont miss anything.Also i can make it automated system becouse of i have the list of person who to look up.
+
+I have looked up for machine learning and i determined discoveryA will be at cluster algorithm.But it has difficult duty i need to figure out how to convert text to integers so machine can learn. <strong>BIG QUESTION MARK</strong> <br/>
