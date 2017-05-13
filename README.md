@@ -75,6 +75,6 @@ it gets 11 variables here is the list:<br/>
 
 <strong>Changelog </strong>-<i>13.05.2017 Istanbul 16.21</i><br />
 
-Created daily origin list which is under the origins file
-origins->current_date->origins.txt
+Created daily origin list which is under the origins file<br />
+<i>origins->current_date->origins.txt</i><br />
 with this attribute i can track daily origin point so i dont miss anything.Also i can make it automated system becouse of i have the list of person who to look up.
