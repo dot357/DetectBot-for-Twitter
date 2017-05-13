@@ -80,3 +80,10 @@ Created daily origin list which is under the origins file<br />
 with this attribute i can track daily origin points so i dont miss anything.Also i can make it automated system becouse of i have the list of person who to look up.
 
 I have looked up for machine learning and i determined discoveryA will be at cluster algorithm.But it has difficult duty i need to figure out how to convert text to integers so machine can learn. <strong>BIG QUESTION MARK</strong> <br/>
+
+
+Included leveling system 
+l1 
+l2
+l3
+This will be explain when i have mood.
