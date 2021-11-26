@@ -1,6 +1,8 @@
 # DetectBot-for-Twitter
 Project start 11.05.2017
 
+# THIS PROJECT IS DEPRECATED
+
 Using certain algorytms detecting certain people (Such as isis sympathizers,racist cult etc) inside the twitter.
 
 Twitter is crowded.This helps you to find wich group you want.
